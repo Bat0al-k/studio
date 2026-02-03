@@ -24,7 +24,7 @@ const Login = () => {
                     
                     <div className="relative w-full max-w-md aspect-square flex items-center justify-center flex-wrap rounded-full">
                         {/*  for background blur effect */}
-                        <div className="absolute inset-0 rounded-full bg-linear-to-br from-[#306C96]/80 to-[#306C96]/50 blur-3xl hidden md:block" />
+                        <div className="absolute inset-0 rounded-full bg-linear-to-br from-[#306C96]/80 to-[#306C96]/40 blur-3xl dark:bg-white/40" />
                         <Image
                             src="/authPic.svg"
                             alt="Next.js logo"

@@ -121,4 +121,4 @@ const AuthForm = ({ mode }: AuthFormProps) => {
     )
 }
 
-export default AuthForm
+export default AuthForm;

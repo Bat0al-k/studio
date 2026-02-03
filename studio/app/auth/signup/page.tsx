@@ -18,13 +18,13 @@ const Signup = () => {
                     </div>
 
                     {/* Mobile Title */}
-                    <h2 className="text-4xl font-semibold mb-4 text-center md:hidden">
+                    <h2 className="text-3xl font-semibold mb-4 text-center md:hidden">
                         Create your account!
                     </h2>
                     
                     <div className="relative w-full max-w-md aspect-square flex items-center justify-center flex-wrap rounded-full">
                         {/*  for background blur effect */}
-                        <div className="absolute inset-0 rounded-full bg-linear-to-br from-[#306C96]/80 to-[#306C96]/40 blur-3xl dark:bg-white/40 hidden md:block" />
+                        <div className="absolute inset-0 rounded-full bg-linear-to-br from-[#306C96]/80 to-[#306C96]/40 blur-3xl dark:bg-white/40" />
                         <Image
                             src="/authPic.svg"
                             alt="Next.js logo"
@@ -37,7 +37,7 @@ const Signup = () => {
                 </div>
 
                 {/* Right Side: for form */}
-                <div className="bg-transparent flex flex-col justify-center max-w-md mx-auto w-full md:mb-14 z-10">
+                <div className="bg-transparent flex flex-col justify-center max-w-md mx-auto w-full z-10">
                     {/* Desktop Title */}
                     <h2 className="text-4xl font-semibold mb-8 hidden md:block">Create your account!</h2>
                     <AuthForm mode="signup" />
