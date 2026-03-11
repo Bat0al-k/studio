@@ -1,13 +1,11 @@
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
+import HomePage from "./home/page";
 
-export default function Home() {
+export default function Page() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen">
-        <h1 className="text-3xl font-bold">Home</h1>
-        <Link href="/auth/login" className="text-3xl font-bold underline mt-4">Login</Link>
-      </div>  
+      <HomePage />
     </>
   );
 }
