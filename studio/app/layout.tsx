@@ -27,7 +27,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased duration-300 transition-colors bg-background text-foreground`}
       >
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="absolute bottom-[92%] right-4 z-50">
             <ThemeToggle />
           </div>
