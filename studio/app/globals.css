@@ -6,13 +6,13 @@
 }
 
 :root {
-  --background: #082D47;
-  --foreground: #f0f4f8;
+  --background: #f0f4f8;
+  --foreground: #082D47;
 }
 
 .dark {
-  --background: #f0f4f8;
-  --foreground: #082D47;
+  --background: #082D47;
+  --foreground: #ededed;
 }
 
 body {
